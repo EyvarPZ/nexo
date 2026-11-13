@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0b0e">
+    <meta name="description" content="Sistema operativo para pequeñas y medianas empresas.">
+    <title>nexo.pyme — Sistema operativo para tu negocio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrap">
+    <header class="topbar">
+        <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+        </div>
+        <div>
+            <div class="brand-title">nexo<span>.pyme</span></div>
+            <div class="brand-sub">Sistema operativo para tu negocio</div>
+        </div>
+        </div>
+        <div class="top-right">
+        <div class="online"><span class="pulse"></span> Entorno activo</div>
+        <div class="avatar" aria-label="Perfil de operaciones">OP</div>
+        </div>
+    </header>
+    
+    <nav class="nav" aria-label="Secciones del sistema">
+        <button class="active" data-tab="cash" aria-current="page">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>Conciliación
+        </button>
+        <button data-tab="labels">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5v14M8 5v14M12 5v14M16 5v14M20 5v14"/></svg>Etiquetas
+        </button>
+        <button data-tab="suppliers">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 5h6m-9 2h12v13H6z"/><path d="m9 13 2 2 4-4"/></svg>Proveedores
+        </button>
+    </nav>
+
+    <div id="app" class="view" aria-live="polite"></div>
+
+    <footer class="footer">
+        <span>nexo.pyme · Operaciones más claras, todos los días.</span>
+        <span class="footer-status">Todos los sistemas operativos</span>
+    </footer>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
